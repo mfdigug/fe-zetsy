@@ -1,6 +1,7 @@
 /*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /*////////// Global Styles //////////*/
 
@@ -15,6 +16,36 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	position: relative;
 }
 
-/* Write all remaining styles here */
+h1 {
+	color: rgb(145, 172, 189);
+	font-size: 5em;
+	font-family: "Playfair Display", serif;
+	font-weight: 500;
+}
+
+header img {
+	border: solid, 5px, rgb(145, 172, 189);
+	width: 950px;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgb(101, 120, 131);
+}
+
+footer img {
+	border: solid, 5px, rgb(145, 172, 189);
+	margin: 20px auto;
+	transition: border 2s ease-out;
+}
+
+footer img:hover {
+	border: solid, 5px, #000;
+}
+
+footer p {
+	text-align: right;
+}
